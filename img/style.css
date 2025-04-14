@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:  greenyellow;
+    color: white;
+    padding: 30px 50px;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+body::before {
+    content: '';
+    background: black;
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    top: -100px;
+    left: -600px;
+    transform: rotate(-70deg);
+    margin-top: -70px;
+  
+
+}
+
+body::after {
+    content: 'Nike';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(37, 37, 37);
+    font-size: 250px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    
+    
+}
+
+.imagem-tenis {
+    margin-top: 250px;
+    width: 600px;
+    height: 300px;
+    transform: rotate(-25deg);
+    filter: drop-shadow(30px 45px 40px #161616);
+    transition: all 0.5s ease;
+  
+    
+}
+
+.logo {
+    width: 100px;  
+    position: relative;
+    z-index: 1;
+    
+
+}
+
+h4 {
+    font-size: 30px;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.botao-carrinho {
+    background: rgb(109, 132, 161);
+    padding: 10px 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-carrinho:hover {
+    opacity: 0.7;
+
+}
+
+.botao-carrinho:active{
+    opacity: 0;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    position: relative;
+    z-index: 11;
+
+
+}
+
+.troca-efeito {
+    opacity: 0;
+    transform: rotate(-25deg) translateY(-30px);
+}
+
+.texto {
+    max-width: 450px;
+
+}
+
+
+.caixa-botoes {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    gap: 10px;
+
+}
+
+.botao {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.botao:active {
+    opacity: 0.5;
+
+}
+
+
+.azul {
+    background: #58cced;
+}
+
+.verde {
+    background: #ccee66;
+}
+
+.rosa {
+    background: #ff9eb5;
+}
