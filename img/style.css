@@ -13,7 +13,7 @@ body::before {
     content: '';
     background: black;
     width: 100%;
-    height: 150%;
+    height: 128%;
     position: absolute;
     top: -100px;
     left: -600px;
@@ -28,7 +28,7 @@ body::after {
     position: absolute;
     top: 50%;
     left: 50%;
-    color: rgb(37, 37, 37);
+    color: rgb(86, 86, 86);
     font-size: 250px;
     font-weight: bold;
     transform: translate(-50%, -50%);
@@ -39,6 +39,7 @@ body::after {
 
 .imagem-tenis {
     margin-top: 250px;
+    margin-right: 100px;
     width: 600px;
     height: 300px;
     transform: rotate(-25deg);
@@ -57,7 +58,7 @@ body::after {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 35px;
 
 }
 
